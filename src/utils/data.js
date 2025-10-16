@@ -95,3 +95,14 @@ export const academicExperience = [
     ],
   },
 ];
+
+export const extracurriculars = [
+  {
+    title: "Media",
+    description: "Producing media publications for the Student volunteer group",
+  },
+  {
+    title: "Student Volunteer",
+    description: "Electronics & Telecommunications",
+  },
+];
