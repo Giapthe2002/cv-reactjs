@@ -54,3 +54,31 @@ export const projectsData = [
     ],
   },
 ];
+
+export const skillsData = [
+  {
+    category: "Programming",
+    details: "HTML, CSS, JavaScript, TypeScript",
+  },
+  {
+    category: "Frontend Development",
+    details: "React, React Native (Android), Next.js, Tailwind CSS, Bootstrap",
+  },
+  {
+    category: "Backend & Databases",
+    details: "Node.js + Express.js, MySQL, SQL Server, MongoDB",
+  },
+  {
+    category: "Developer Tools",
+    details: "Visual Studio, VS Code, WebStorm, Postman, GitHub, Figma",
+  },
+  {
+    category: "UI/UX Design",
+    details:
+      "Understanding of design principles, user flows, wireframe, and responsive layout using Figma",
+  },
+  {
+    category: "Other Skills",
+    details: "RESTful API integration, Authentication (JWT)",
+  },
+];

@@ -9,9 +9,9 @@ const Projects = () => {
       <div className="mt-1">
         {projectsData.map((project, index) => (
           <div key={index}>
-            <div className="flex flex-row justify-between text-gray-600">
+            <div className="flex flex-row justify-between text-gray-700">
               <div>
-                <li className="font-semibold text-gray-700 text-[14px] ml-3">
+                <li className="font-semibold text-gray-800 text-[14px] ml-3">
                   {project.name}
                 </li>
                 <p className="italic text-sm leading-none">
@@ -28,7 +28,7 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <div className="text-gray-600">
+              <div className="text-gray-700">
                 <p className="text-[15px]">– Key Features:</p>
                 <ul className="list-[circle] ml-12 text-[14px]">
                   {project.keyFeatures.map((feature, i) => (
@@ -36,7 +36,7 @@ const Projects = () => {
                   ))}
                 </ul>
               </div>
-              <div className="text-gray-600">
+              <div className="text-gray-700">
                 <p className="text-[15px]">– Technical Implementation:</p>
                 <ul className="list-[circle] ml-12 text-[14px]">
                   {project.technicalImplementation.map((tech, i) => (

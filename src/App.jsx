@@ -1,6 +1,7 @@
 import Education from "./components/Section/Education";
 import Intro from "./components/Section/Intro";
 import Projects from "./components/Section/Projects";
+import Skills from "./components/Section/Skills";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Intro />
       <Education />
       <Projects />
+      <Skills />
     </div>
   );
 }
