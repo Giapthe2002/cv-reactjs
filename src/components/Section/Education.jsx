@@ -5,11 +5,9 @@ const Education = () => {
   const { degree, institute, cpa, year } = educationData;
   return (
     <div className="w-full pt-4">
-      <h2 className="text-md font-light uppercase border-b-1 text-gray-700">
-        Education
-      </h2>
+      <h2 className="heading-uppercase border-b-1 text-gray-700">Education</h2>
 
-      <table className="w-full text-sm mt-1.5">
+      <table className="w-full text-[15px] mt-1.5">
         <thead className="text-gray-700 font-semibold">
           <tr>
             <th className="border-1 border-gray-600 text-center ">Degree</th>
