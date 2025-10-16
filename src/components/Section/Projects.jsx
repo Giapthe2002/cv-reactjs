@@ -11,9 +11,11 @@ const Projects = () => {
           <div key={index}>
             <div className="flex flex-row justify-between text-gray-700">
               <div>
-                <li className="font-semibold text-gray-800 text-[14px] ml-3">
-                  {project.name}
-                </li>
+                <ul className="list-disc">
+                  <li className="font-semibold text-gray-800 text-[14px] ml-3">
+                    {project.name}
+                  </li>
+                </ul>
                 <p className="italic text-sm leading-none">
                   {project.description}
                 </p>

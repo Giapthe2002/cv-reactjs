@@ -82,3 +82,16 @@ export const skillsData = [
     details: "RESTful API integration, Authentication (JWT)",
   },
 ];
+
+export const academicExperience = [
+  {
+    lab: "BKAI Research Lab",
+    position: "Frontend Developer Trainee",
+    date: "Dec. 2023 – Feb. 2025",
+    details: [
+      "Participated in frontend development training sessions",
+      "Worked with technologies like HTML, CSS, JavaScript",
+      "Studied interface design for web and mobile applications using Figma",
+    ],
+  },
+];
