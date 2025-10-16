@@ -10,9 +10,11 @@
   }
 
   body {
-    width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     overflow-x: hidden;
-    margin: auto;
+    margin: 0;
     padding: 0;
   }
 }

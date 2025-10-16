@@ -5,7 +5,7 @@ const Intro = () => {
   const { position, name, university, school, phone, email, portfolio, image } =
     profileData;
   return (
-    <header className="flex flex-col md:flex-row md:ml-6 items-center px-8 py-6 border-b border-gray-300 gap-4 font-times">
+    <header className="flex flex-col md:flex-row items-center pt-6 gap-4 font-times">
       <div className="w-[120px] h-[120px] object-center rounded-[50%] overflow-hidden">
         <img src={image} alt="Profile" className="scale-130" />
       </div>

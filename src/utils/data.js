@@ -10,3 +10,10 @@ export const profileData = {
   portfolio: "https://mochergt.id.vn/",
   image: profileImage,
 };
+
+export const educationData = {
+  degree: "Bachelor",
+  institute: "Electronics and Telecommunications Engineering",
+  cpa: "3.19/4.0",
+  year: "2025",
+};
