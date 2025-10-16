@@ -106,3 +106,11 @@ export const extracurriculars = [
     description: "Electronics & Telecommunications",
   },
 ];
+
+export const certifications = [
+  {
+    title: "TOEIC 665 (September 2024)",
+    description:
+      "Intermediate English; able to read technical documents and communicate in work settings.",
+  },
+];

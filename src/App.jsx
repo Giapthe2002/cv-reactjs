@@ -1,3 +1,4 @@
+import Certifications from "./components/Section/Certifications";
 import Education from "./components/Section/Education";
 import Extracurriculars from "./components/Section/Extracurriculars";
 import Intro from "./components/Section/Intro";
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Research />
       <Extracurriculars />
+      <Certifications />
     </div>
   );
 }
