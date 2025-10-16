@@ -8,7 +8,7 @@ import Skills from "./components/Section/Skills";
 
 function App() {
   return (
-    <div className="w-[800px] mb-[100px]">
+    <div className="w-[850px] mb-[100px] border-1 border-gray-300 px-16 py-12">
       <Intro />
       <Education />
       <Projects />
